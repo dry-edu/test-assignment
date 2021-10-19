@@ -40,7 +40,8 @@ Hello World!
 Output
 
 ```md
-Hello World
+Hello World!
+
 ```
 
 ### Example 2
@@ -55,7 +56,8 @@ Goodbye World!
 Output
 
 ```md
-Goodbye World
+Goodbye World!
+
 ```
 
 ## Assessment
