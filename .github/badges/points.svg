@@ -1,20 +1,13 @@
-<svg width="86.3" height="20" viewBox="0 0 863 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Points: 10/20">
-  <title>Points: 10/20</title>
-  <linearGradient id="a" x2="0" y2="100%">
-    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
-    <stop offset="1" stop-opacity=".1"/>
-  </linearGradient>
-  <mask id="m"><rect width="863" height="200" rx="30" fill="#FFF"/></mask>
-  <g mask="url(#m)">
-    <rect width="433" height="200" fill="#555"/>
-    <rect width="430" height="200" fill="#1BC" x="433"/>
-    <rect width="863" height="200" fill="url(#a)"/>
-  </g>
-  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
-    <text x="60" y="148" textLength="333" fill="#000" opacity="0.25">Points</text>
-    <text x="50" y="138" textLength="333">Points</text>
-    <text x="488" y="148" textLength="330" fill="#000" opacity="0.25">10/20</text>
-    <text x="478" y="138" textLength="330">10/20</text>
-  </g>
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="120px" height="36px" role="img" aria-label="Points: 10/20">
+    <title>Points: 10/20</title>
+    <svg y="6px" height="16px" font-size="16px" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji" fill="#868E96">
+        <text x="0" y="12">Points</text>
+        <text x="120" y="12" text-anchor="end">10/20</text>
+    </svg>
+    <svg y="24" width="120px" height="6px">
+        <rect rx="3" width="100%" height="100%" fill="#EEEEEE"/>
+        <rect rx="3" width="0%" height="100%" fill="#0170F0" transform="">
+            <animate attributeName="width" begin="0.5s" dur="600ms" from="0%" to="50%" repeatCount="1" fill="freeze" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1"/>
+        </rect>
+    </svg>
 </svg>
