@@ -29,6 +29,8 @@ jobs:
         with:
           points: ${{ steps.autograder.outputs.points }}
           path: '.github/badges/points.svg'
+          label: 'Autograder'
+          width: '300'
 
       # commit and push badges if badges have changed
       - name: Commit changes to points bar
