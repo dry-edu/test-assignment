@@ -1,20 +1,20 @@
 {
 	"tests": [
         {
-            "name": "Test #1 - Pass",
-            "setup": "javac -d bin src/App.java",
+            "name": "Test #1 - Fixed Output",
+            "setup": "javac -d bin src/*.java",
             "run": "java -cp bin App",
-            "input": "",
+            "input": "Hello World!\n",
             "output": "Hello World!\n",
             "comparison": "exact",
             "timeout": 1,
             "points": 10
         },
         {
-            "name": "Test #2 - Fail",
-            "setup": "javac -d bin src/App.java",
+            "name": "Test #2 - Dynamic Output",
+            "setup": "javac -d bin src/*.java",
             "run": "java -cp bin App",
-            "input": "",
+            "input": "Goodbye World!\n",
             "output": "Goodbye World!\n",
             "comparison": "exact",
             "timeout": 1,
