@@ -15,7 +15,7 @@
             "setup": "javac -d bin src/App.java",
             "run": "java -cp bin App",
             "input": "",
-            "output": "",
+            "output": "Goodbye World!\n",
             "comparison": "exact",
             "timeout": 1,
             "points": 10
