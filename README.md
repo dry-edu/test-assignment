@@ -28,6 +28,14 @@ For more information on how to use the `Scanner` object you can review the [rele
 - You should have a class called `App.java` that contains a `main` method.
 - Your program should read input from the user, and output the same message back out to them.
 
+## Constraints
+
+Input will consist of a single line ending with a `\n` character, this line represents the `String` `S` where:
+
+```
+0 < S.length() < Integer.MAX_VALUE
+```
+
 ### Example 1
 
 Input
